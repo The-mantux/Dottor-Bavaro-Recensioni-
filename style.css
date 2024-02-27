@@ -1,0 +1,55 @@
+:root{
+    --bavaro: #fbd351;
+    --salame: #a32c45;
+    --bavaro-chiaro: #fff4d6;
+    --crosta: #ec984f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bavaro-chiaro);
+}
+
+.nav1{
+    background-color: var(--bavaro);
+}
+
+.icona{
+    width: 60px;
+}
+
+.brand{
+    color: #a32c45;
+    text-decoration: none;
+    font-size: x-large ;
+}
+
+.risto{
+    margin-top:20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#ristorante{
+    padding:20px;
+    border-radius: 30px;
+}
+
+.bottone{
+    display: block;
+    border-radius: 10px;
+    background-color: var(--bavaro);
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    text-decoration: none;
+    color: var(--salame);
+}
+
